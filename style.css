@@ -1,0 +1,29 @@
+.container{
+    width:1267px ;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 1px solid red;
+
+} 
+.header_ul
+{
+  display: flex;  
+  gap: 12px;
+}
+.hero .container{
+display: grid;
+grid-template-columns: auto;
+text-align: center;
+}
+.about_article{
+    fill: 100%;
+}
+.gallery .container{
+    display: grid;
+    gap: 12px;
+    grid-template-columns:repeat(3, 1fr)
+    
+    
+}
+
